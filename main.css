@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.header{
+    margin: 0 auto;
+    width: 1440px;
+    height: 800px;
+    background-color: #F3D7B7;
+}
+
+.n1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 800px;
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
+
+.n1 ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.s1{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1300px;
+    height: 500px;
+    gap: 40px;
+}
+
+.d1 h1{
+    font-size:  64px;
+    font-weight: 700;
+}
+
+.d1 p{
+    width: 460px;
+}
+
+.d2{
+    margin: 0 auto;
+}
+
+.d2 h1{
+    font-size:  64px;
+    font-weight: 700;
+}
+
+.d2 p{
+    width: 460px;
+}
+
+.logo{
+    position: relative;
+    left: 175px;
+}
+
+@keyframes a {
+    0%{
+        rotate: 1deg;
+    }
+
+    100%{
+        rotate: 100050deg;
+    }
+}
+
+.i1{
+    margin: 0 auto;
+    position: relative;
+    top: -180px;
+    left: -600px;
+    animation-name: a;
+    animation-duration: 300s;
+    animation-delay: inherit;
+}
+
+.f{
+    width: 1440px;
+    height: 160px;
+    background-color: #F3D7B7;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.n2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 250px;
+    padding: 0 300px;
+    text-transform: uppercase;
+}
+
+.n2 ul{
+    display: flex;
+    gap: 50px;
+}
+
+.s2{
+    margin: 0 auto;
+    width: 1440px;
+    height: 740px;
+    display: flex;
+    align-items: center;
+}
+
+.s3{
+    margin: 0 auto;
+    width: 1440px;
+    height: 510px;
+    background-color: #C99B67;
+    color: white;
+    display: flex;
+}
+
+.s2 h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.s3 h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.logo10{
+    position: relative;
+    top: -500px;
+    left: 700px;
+}
+
+.logo9{
+    position: relative;
+    left: 130px;
+}
+
+.m{
+    width: 1440px;
+    background-color: rgb(250, 246, 238);
+    margin: 0 auto;
+}
+
+.d3{
+    padding: 0 100px;
+}
+
+.d3 h1{
+    font-size:  64px;
+    font-weight: 700;
+    width: 100px;
+}
+
+.d3 p{
+    width: 460px;
+}
